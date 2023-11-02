@@ -1,0 +1,12 @@
+App:
+  TotalWorker: 100
+  CSVFile: data/majestic_million.csv
+
+Mysql:
+  Host: localhost
+  Port: 3306
+  User: root
+  Password: masukdb
+  DbName: go_worker_pool
+  MaxIdleConnection: 4
+  MaxOpenConnection: 100
